@@ -1,8 +1,8 @@
 # Basic
 title: LCCCCC
-subtitle: 爱生活爱宝宝爱学习的SZUER
+#subtitle: 爱生活爱宝宝爱学习的SZUER
 welcome_message: <a href="https://liuchang0523.github.io/" target="_blank">首页</a>
-#description: 我的一个blog.
+description: 爱生活爱宝宝爱学习的SZUer.
 #creator: <a href="https://liuchang0523.github.io/">@LCCCCC</a>
 
 url: "https://liuchang0523.github.io/"
@@ -32,7 +32,7 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: vno-jekyll
+    disqus: liuchang
     # duoshuo: 
     
 # Social
