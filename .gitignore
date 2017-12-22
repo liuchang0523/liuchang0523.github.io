@@ -5,8 +5,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
-.suo
-.sqlite
+
 
 ### OSX ###
 .DS_Store
