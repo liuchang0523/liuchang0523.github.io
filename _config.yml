@@ -1,11 +1,11 @@
 # Basic
 title: LCCCCC
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+subtitle: 我的blog
+welcome_message: <a href="https://liuchang0523.github.io/" target="_blank">blog</a>
+description: 我的一个blog.
+creator: <a href="https://liuchang0523.github.io/">@LCCCCC</a>
 
-url: "http://vno.onevcat.com"
+url: "https://liuchang0523.github.io/"
 
 permalink: /:year/:month/:title/
 
