@@ -10,6 +10,16 @@
         </li>
         {% endif %}
 
+        {% if site.social.jianshu %}
+        <!-- Jianshu -->
+        <li class="navigation__item">
+            <a href="http://www.jianshu.com/u/{{site.social.jianshu}}" title="@{{site.social.jianshu}}" target="_blank">
+                <i class='social fa fa-book'></i>
+                <span class="label">Jianshu</span>
+            </a>
+        </li>
+        {% endif %}
+
         {% if site.social.github %}
         <!-- Github -->
         <li class="navigation__item">
@@ -20,15 +30,6 @@
         </li>
         {% endif %}
 
-        {% if site.social.jianshu %}
-        <!-- Twitter -->
-        <li class="navigation__item">
-            <a href="http://www.jianshu.com/u/{{site.social.jianshu}}" title="@{{site.social.jianshu}}" target="_blank">
-                <i class='social fa fa-book'></i>
-                <span class="label">Jianshu</span>
-            </a>
-        </li>
-        {% endif %}
 
         {% if site.social.gplus %}
         <!-- Google Plus -->
@@ -40,6 +41,7 @@
         </li>
         {% endif %}
 
+        {% if 0 %}
         <!-- RSS -->
         <li class="navigation__item">
             <a href="/feed.xml" rel="author" title="RSS" target="_blank">
@@ -47,6 +49,8 @@
                 <span class="label">RSS</span>
             </a>
         </li>
+        {% endif %}
+
         {% if site.social.mail %}
         <!-- Email -->
         <li class="navigation__item">
