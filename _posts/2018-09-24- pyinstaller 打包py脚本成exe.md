@@ -13,7 +13,8 @@ date: '2018-09-24'
 3. 切换到要打包的程序目录 `pyinstaller -F test.py`。(-F 打包成单文件 运行会很慢，但是简洁) 
 
 # Problem1
->RecursionError: maximum recursion depth exceeded
+>RecursionError: maximum recursion depth exceeded 
+
 ![](http://ww1.sinaimg.cn/large/6db7045egy1fvky260pknj20qo0dcq37.jpg) 
 ## 解决方案
 找到`*.spec`文件，在第二行添加
@@ -27,9 +28,11 @@ sys.setrecursionlimit(5000) # or more
  [pyinstaller and matplotlib gets maximum recursion depth exceeded](https://stackoverflow.com/questions/30677110/pyinstaller-and-matplotlib-gets-maximum-recursion-depth-exceeded)
 
 # Problem 2
->UnicodeDecodeError: 'utf-8' codec can't decode byte 0xce in position 110: invalid continuation byte
+>UnicodeDecodeError: 'utf-8' codec can't decode byte 0xce in position 110: invalid continuation byte 
+
 ![](http://ww1.sinaimg.cn/large/6db7045egy1fvkydohqycj20qo0dcjru.jpg)
 
+## 解决方案
 控制台输入`chcp 65001`将 cmd 切换至 utf-8 编码，重新运行`pyinstaller test.spec`
 
 # 安装成功
