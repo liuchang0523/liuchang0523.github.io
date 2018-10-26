@@ -1,13 +1,12 @@
 ---
 layout: post
-title:Linux_Android交叉编译
+title: Linux_Android交叉编译
 tags:
   - 原创分享
 date: '2018-10-26'
 ---
 
 * * *
-
 ### 又是一轮圆月时
 
 # 记录一下对 x86 平台与 arm 平台的交叉编译
